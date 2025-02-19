@@ -32,7 +32,7 @@ pip install -r requirements.txt
 To use WebScanner, run the following command:
 
 ```bash
-python webscanner.py
+python3 webscanner.py
 ```
 
 ### Menu Options
@@ -41,70 +41,27 @@ Upon running the command, you will be presented with a menu of options:
 
 1. **Web Vulnerability Scanner**: 
     - Scan a website for vulnerabilities:
-      ```bash
-      python webscanner.py --target http://example.com --mode scan
-      ```
+     
 
 2. **Subdomain Finder**: 
     - Find subdomains associated with a target domain:
-      ```bash
-      python webscanner.py --target example.com --mode subdomain
-      ```
+     
 
 3. **Admin Panel Finder**:
     - Locate admin panels on a target website:
-      ```bash
-      python webscanner.py --target http://example.com --mode find-admin
-      ```
+     
 
 4. **Brute Force Attack (Admin Login)**:
     - Perform brute force attacks on admin login pages:
-      ```bash
-      python webscanner.py --target http://example.com/admin --mode brute-force --threads 10
-      ```
+     
 
 5. **Help & Usage**:
     - Get detailed help and usage instructions:
-      ```bash
-      python webscanner.py --help
-      ```
+     
 
 6. **Exit**:
     - Exit the application:
-      ```bash
-      python webscanner.py --exit
-      ```
-
-### Options
-
-- `--target` or `-t`: Specify the target URL or domain.
-- `--mode` or `-m`: Specify the mode to use (scan, subdomain, find-admin, brute-force).
-- `--path-file` or `-p`: Specify a custom path file for finding admin panels.
-- `--threads` or `-th`: Specify the number of threads to use for the operation.
-- `--verbose` or `-v`: Enable verbose output.
-
-### Example Commands
-
-Scan a website for vulnerabilities:
-```bash
-python webscanner.py --target http://example.com --mode scan
-```
-
-Find subdomains associated with a target domain:
-```bash
-python webscanner.py --target example.com --mode subdomain
-```
-
-Locate admin panels using a custom path file:
-```bash
-python webscanner.py --target http://example.com --mode find-admin --path-file paths.txt
-```
-
-Perform a brute force attack on an admin login page:
-```bash
-python webscanner.py --target http://example.com/admin --mode brute-force --threads 10
-```
-
+      
 ## Contributing
 
 We welcome contributions from the community. Please create a pull request with a detailed description of your changes. Ensure your code follows the project's coding standards and includes appropriate tests.
@@ -116,6 +73,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any inquiries or support, please open an issue on the [GitHub repository](https://github.com/anonwincy/webscanner/issues).
+[Facebook](https://facebook.com/anonwincy).
+[Instagram](https://instagram.com/anonwincy).
 
 ---
 
