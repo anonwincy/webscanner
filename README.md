@@ -79,4 +79,3 @@ For any inquiries or support, please open an issue on the [GitHub repository](ht
 ---
 
 Thank you for using WebScanner! If you find this tool useful, please consider giving it a star on GitHub.
-```` ▋
